@@ -83,7 +83,7 @@ int main() {
 	int sum = add (11,12);
 	cout<<sum<<endl;
 
-*/
+
 
 
 	int a =1;
@@ -92,6 +92,27 @@ int main() {
 	address(a,b);
 	cout<<a<<","<<b<<endl;
 
+
+	//c++支持数组越界
+	int a[5];
+	a[0] = 0;
+	a[1] = 1;
+	cout<<a[6]<<endl;
+
+	char str[] = {'1','\0'};
+	cout<<str<<endl;
+	strcpy(str,"你好，我要复制了");
+	cout<<str<<endl;
+
+
+
+
+	char str[10] ;
+	cin.getline(str,10);
+	cout<<str<<endl;
+
+
+*/
 
 
 
